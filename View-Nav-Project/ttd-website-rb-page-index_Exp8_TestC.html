@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RB Page - TestB</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="SHORTCUT ICON" href="http://www.tarptiedown.com/ttd-website/ttd-website-pics-videos/ttd-website-icon-ttd-256x256.ico"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/ttd-website-rb-page-css.css">
+    
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script> 
+    <!--<script src="//npmcdn.com/angular@1.5.11/angular.js"></script>-->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular-sanitize.js"></script>
+    <script src="//npmcdn.com/@uirouter/angularjs@1.0.5/release/angular-ui-router.js"></script>
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-sanitize.js"></script>-->
+    
+    
+    <script src="ttd-website-rb-page-config_Exp8.js"></script>
+    <script src="ttd-website-rb-page-components00-09.js"></script>
+    <script src="ttd-website-rb-page-components10-19.js"></script>
+    <script src="ttd-website-rb-page-controller-client_Exp8.js"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    <!--<script src="//npmcdn.com/show-current-browser-url"></script>-->
+    <script src="//npmcdn.com/@uirouter/visualizer@4.0.2"></script>
+    <!--<script src="ajax.js"></script>-->
+   
+    <!--<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>-->
+    
+    
+<style>
+</style>
+</head>
+<body  ng-app="RB-Page" style="position:relative;">
+    
+    <!--<div class="pixelRuler" style="position:fixed; top:90px; left:367px; z-index:2;">1170-195,220,975,1170</div>-->
+    <!--<div class="pixelRuler" style="position:relative; top:190px; left:562px; z-index:2; opacity:.6;">780-1,780</div>-->
+    <!--<div class="pixelRuler" style="position:relative; top:220px; left:582px; z-index:2; opacity:.6;">740-1,740</div>-->
+    
+    <div style="max-width:1170px; height:70px; margin-left:auto; margin-right:auto;">
+            
+        <table style="width:100%">
+            <tr>
+                <td style="width:12%; color:white; text-align:center;">WTFWTFWTFWTF</td>
+               
+                    
+                        <td style="width:19%; text-align:center;">
+                            <img src="rockbuster-logo-no-rocks-1500x450-with-drop.png" alt="RB logo" style="width:100%;">
+                        </td>
+                        <td style="width:19%; text-align:center;">
+                            <img src="rockbuster-logo-no-rocks-1500x450-with-drop.png" alt="RB logo" style="width:100%;">
+                        </td>
+                        <td style="width:19%; text-align:center;">
+                            <img src="rockbuster-logo-no-rocks-1500x450-with-drop.png" alt="RB logo" style="width:100%;">
+                        </td>
+                        <td style="width:19%; text-align:center;">
+                            <img src="rockbuster-logo-no-rocks-1500x450-with-drop.png" alt="RB logo" style="width:100%;">
+                        </td>
+                    
+                
+                <td style="width:12%; color:white; text-align:center;">WTFWTFWTFWTF</td>
+            </tr>
+        </table>    
+            
+        </div>  
+    
+    <div class="container" ng-controller="rbCtrl as rbCTRL">
+        
+        <div style="max-width:1170px; height:70px;">
+            <div style="width:100%">
+                <table>
+                    <tr>
+                        <td style="width:12%; color:white; text-align:center;">WTFWTFWTFWTF</td>
+                       
+                            
+                                <td style="width:19%; text-align:center;">
+                                    <img src="rockbuster-logo-no-rocks-1500x450-with-drop.png" alt="RB logo" style="width:100%;">
+                                </td>
+                                <td style="width:19%; text-align:center;">
+                                    <img src="rockbuster-logo-no-rocks-1500x450-with-drop.png" alt="RB logo" style="width:100%;">
+                                </td>
+                                <td style="width:19%; text-align:center;">
+                                    <img src="rockbuster-logo-no-rocks-1500x450-with-drop.png" alt="RB logo" style="width:100%;">
+                                </td>
+                                <td style="width:19%; text-align:center;">
+                                    <img src="rockbuster-logo-no-rocks-1500x450-with-drop.png" alt="RB logo" style="width:100%;">
+                                </td>
+                            
+                        
+                        <td style="width:12%; color:white; text-align:center;">WTFWTFWTFWTF</td>
+                    </tr>
+                </table>    
+            </div> 
+        </div>  
+<!--***********************************************************************************************************************************************************-->        
+        <div class="row" style="margin-top:20px;">
+            <div class="col-xs-2 menuBtns" style="border:none; background-color:none; text-align:right;">   
+                <div class="shadow cursorstyle1" ng-repeat="menuA in rbCTRL.menu1" ng-bind-html="menuA"></div>
+            </div>
+            <div class="col-xs-8" style="background:white; padding:0px; border:2px solid black; border-radius:7px;">
+                <div style=" padding:5px 5px 5px 5px; height:300px; overflow-x:hidden;">
+                    <ui-view>This is where the ui-view should show</ui-view>
+                </div>
+            </div>        
+            <div class="col-xs-2 menuBtns" style="border:none; background-color:none; text-align:left;">
+                <div class="shadow cursorstyle1" ng-repeat="menuB in rbCTRL.menu2" ng-bind-html="menuB"></div>
+
+            </div>
+        </div>
+<!--***********************************************************************************************************************************************************-->
+<!--View History Menu Section-->
+        <div class="row" style="margin-top:5px;">
+            <div class="col-xs-2"><button ng-click="rbCTRL.clearHistory()" style="float:right;">Clear History</button></div>
+            <div class="col-xs-8">
+                <div style="clear:left"></div>
+                <div style="width:100%; height:50px; overflow-x:hidden;">
+                    <span class="menuBtns" style="float:left; font-size:1em; line-height:1.0;">Pics:&nbsp;&nbsp;&nbsp; <br>View: </span>
+                    <!--<button ng-click="rbCTRL.stateHistory(viewHistory)" class="" style="float:left; text-align:center;" ng-repeat="viewHistory in rbCTRL.currentView">{{viewHistory.group}}<br>{{viewHistory.view}} </button>-->
+                    <button ng-click="rbCTRL.stateHistory(viewHistory)" class="" style="float:left; text-align:center; line-height:1.0; background-color:{{rbCTRL.bkColor[$index]}};" ng-repeat="viewHistory in rbCTRL.currentView">{{viewHistory.group}}<br>{{viewHistory.view}} </button>
+                </div>
+            </div>
+            <div class="col-xs-2"><button ng-click="rbCTRL.clearHistory()" style="float:left;">Clear History</button></div>
+        </div>
+<!--***********************************************************************************************************************************************************-->
+        
+
+
+        <div class="row" style="margin-top:0px;">
+            <div class="col-xs-2 menuBtns" style="margin-top:5px; border:none; text-align:right;">   
+                <div class="shadow cursorstyle1" ng-mouseover="rbCTRL.arrayIndex($index)" style="color:{{picMenuA.highlight}}; text-shadow:{{picMenuA.shadow}};" ng-repeat="picMenuA in rbCTRL.picMenu1" >{{picMenuA.label}}</div>
+            </div>
+            
+            <div class="col-xs-8">
+                <div class="row" style="background-color:lightgray; border:2px solid black; margin-top:0px; padding-top:0px; border-radius:7px;">
+                    <div ng-repeat="viewName in rbCTRL.viewNAME" ng-show="viewName.showView">
+                        <div class="col-xs-3" style="padding:6px;">
+                            <div style="text-align:center; color:{{rbCTRL.checkMarkColor}}; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;" ng-bind-html="rbCTRL.showCheckA"></div>    
+                           
+                            
+                            <div class="thumbnail imageshadow sizing">
+                                    <a ui-sref="{{viewName.viewColA}}" ui-sref-active="active">
+                                        <img ng-src="{{rbCTRL.showPicObj[rbCTRL.hyperIndex].picColA}}" alt="H:\Backup - Archive Discs\From 2007 BU Disc Dated 08-26-2007 2\PicturesAA At Work\Covering Shed Site" style="width:100%">
+                                        <div class="caption">
+                                            <p>File Location is at:<br>
+                                                <span>Hyper item: Pics {{rbCTRL.hyperMenuNum}}</span><br>
+                                                <span>{{rbCTRL.showPicObj[rbCTRL.hyperIndex].picColA}}</span><br>
+                                                <span>{{viewName.viewColA}}</span><br>
+                                                <span>{{viewName.showView}}</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                            </div>
+                            
+                            
+                            
+                        </div>
+                        <div class="col-xs-3" style="padding:6px;">
+                            <div style="text-align:center; color:{{rbCTRL.checkMarkColor}}; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;" ng-bind-html="rbCTRL.showCheckB"></div>    
+                            <div class="thumbnail imageshadow sizing">
+                                <!--<div ng-repeat="viewName in rbCTRL.viewNAME" ng-show="viewName.showView">-->
+                                    <a ui-sref="{{viewName.viewColB}}" ui-sref-active="active">
+                                        <img ng-src="{{rbCTRL.showPicObj[rbCTRL.hyperIndex].picColB}}" alt="H:\Backup - Archive Discs\From 2007 BU Disc Dated 08-26-2007 2\PicturesAA At Work\Covering Roof A\Raw Images" style="width:100%">
+                                        <div class="caption">
+                                            <p>File Location is at:<br>
+                                                <span>Hyper item: Pics {{rbCTRL.hyperMenuNum}}</span><br>
+                                                <span>{{rbCTRL.showPicObj[rbCTRL.hyperIndex].picColB}}</span><br>
+                                                <span>{{viewName.viewColB}}</span><br>
+                                                <span>{{viewName.showView}}</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                <!--</div>    -->
+                            </div>
+                        </div>
+                        <div class="col-xs-3" style="padding:6px;">
+                            <div style="text-align:center; color:{{rbCTRL.checkMarkColor}}; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;" ng-bind-html="rbCTRL.showCheckC"></div>    
+                            <div class="thumbnail imageshadow sizing">
+                                <!--<div ng-repeat="viewName in rbCTRL.viewNAME" ng-show="viewName.showView">-->
+                                    <a ui-sref="{{viewName.viewColC}}" ui-sref-active="active">
+                                        <img ng-src="{{rbCTRL.showPicObj[rbCTRL.hyperIndex].picColC}}" alt="H:\Backup - Archive Discs\From 2006 BU Disc Dated 07-29-2006 3\Long Grabbit\Raw Images\Tarp Tent" style="width:100%">
+                                        <div class="caption">
+                                            <p>File Location is at:<br>
+                                                <span>Hyper item: Pics {{rbCTRL.hyperMenuNum}}</span><br>
+                                                <span>{{rbCTRL.showPicObj[rbCTRL.hyperIndex].picColC}}</span><br>
+                                                <span>{{viewName.viewColC}}</span><br>
+                                                <span>{{viewName.showView}}</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                <!--</div>    -->
+                            </div>
+                        </div>
+                        <div class="col-xs-3"  style="padding:6px;">
+                            <div style="text-align:center; color:{{rbCTRL.checkMarkColor}}; text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;" ng-bind-html="rbCTRL.showCheckD"></div>    
+                            <div class="thumbnail imageshadow sizing">
+                                <!--<div ng-repeat="viewName in rbCTRL.viewNAME" ng-show="viewName.showView">-->
+                                    <a ui-sref="{{viewName.viewColD}}" ui-sref-active="active">    
+                                        <img ng-src="{{rbCTRL.showPicObj[rbCTRL.hyperIndex].picColD}}" alt="H:\Backup - Archive Discs\From 2007 BU Disc Dated 06-29-2007 2\EZ Cover\Raw Images 1" style="width:100%">
+                                        <div class="caption">
+                                            <p>File Location is at:<br>
+                                                <span>Hyper item: Pics {{rbCTRL.hyperMenuNum}}</span><br>
+                                                <span>{{rbCTRL.showPicObj[rbCTRL.hyperIndex].picColD}}</span><br>
+                                                <span>{{viewName.viewColD}}</span><br>
+                                                <span>{{viewName.showView}}</span>
+                                            </p>
+                                        </div>
+                                    </a>
+                                <!--</div>    -->
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>        
+            <div class="col-xs-2 menuBtns" style="margin-top:5px; border:none;">
+                <div class="shadow cursorstyle1" ng-mouseover="rbCTRL.arrayIndex($index+12)" style="color:{{picMenuB.highlight}}; text-shadow:{{picMenuB.shadow}};" ng-repeat="picMenuB in rbCTRL.picMenu2" >{{picMenuB.label}}</div>
+            </div>
+        </div>
+        
+    <!-- Company Info and Policy Section -->	
+    <div class="row" style="margin:10px 0px;">
+        <div class="col-xs-2"></div>
+        <div class="col-xs-2 text-center shadow">
+           <a href="http://www.tarptiedown.com/ttd-website/ttd-website-policy-page/ttd-website-home-page-privacy-policy.htm" target="_blank" 
+           style="font-size:20px; text-decoration:none; color:white;  ">Privacy Policy</a>
+        </div>
+        <div class="col-xs-2 text-center shadow">
+           <a href="http://www.tarptiedown.com/ttd-website/ttd-website-policy-page/ttd-website-contact-info.htm" target="_blank"  
+           style="text-align:center; font-size:20px; text-decoration:none; color:white;  ">Contact US</a>
+        </div>
+        <div class="col-xs-2 text-center shadow">
+           <a href="http://www.tarptiedown.com/ttd-website/ttd-website-policy-page/ttd-website-home-page-return-policy.htm" target="_blank" 
+           style="text-align:center; font-size:20px; text-decoration:none; color:white;  ">Return Policy</a>
+        </div>
+        <div class="col-xs-2 text-center shadow">
+           <a href="http://www.tarptiedown.com/ttd-website/ttd-website-policy-page/ttd-website-home-page-ship-policy.htm" target="_blank" 
+           style="text-align:center; font-size:20px; text-decoration:none; color:white;  ">Shipping Policy</a>
+        </div>
+        <div class="col-xs-2"></div>
+    </div>
+   	
+    <div class="row">
+        <div class="col-xs-1"></div>    
+        <div class="col-xs-10" style="height:85px; padding:5px 5px; background-color:lightgray; border-radius:7px;">
+            <div class="row">
+
+                <div class="col-xs-3 text-center">
+                    <img src="http://www.tarptiedown.com/TTD-Store/storefront/view/default/image/payment_VISA_MC_0.75W.png" alt="VISA and MasterCard icons">
+                </div>
+
+                <div class="col-xs-3 text-center">
+                    <span style="float:right; margin-top:6px; margin-right:10px; text-align:center;">Copyright © 2017<br>Tarp Tie Down Company LLC.<br>All rights reserved.</span>
+                </div>
+
+                <div class="col-xs-2 text-center">
+                         <script type="text/javascript" language="javascript">var ANS_customer_id="34f3366f-7153-40d1-b98d-57bbd3613155";</script>
+                         <script type="text/javascript" language="javascript" src="//verify.authorize.net/anetseal/seal.js" ></script>
+                </div>
+
+                <div class="col-xs-2 text-center" id="siteseal" style="padding-top:23px;">
+                            <script type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=ugbvCfl2gBet7beHFaBArgQhyX24N88uKpdi7htFa46LZOBmMjpXqIjk8va2"></script>
+                </div>
+
+                <div class="col-xs-2 text-center" id="trustwaveSeal" style="padding-top:12px;">
+                        <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?code=6ee8e6c740d6477aba73eed9a57b6cd3"></script>
+                </div>    
+            </div>
+        </div>
+        <div class="col-xs-1"></div>    
+    </div> 
+    
+<!--****************************************************************************************************************************************-->
+    
+    </div> 
+  
+
+<script src="pixelruler.js"></script>
+
+</body>
+</html>
