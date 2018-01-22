@@ -6,8 +6,8 @@ This respository has links to projects I want to show.
 
 [Brian's AngularJS Respositories](https://github.com/BrianHCombes/SelfEd-Tutorials-AngularJS)
 
+[Brian's Javascript Respositories](https://github.com/BrianHCombes/SelfEd-Tutorials-Javascript)
 
-[Brian's AngularJS Respositories](https://github.com/BrianHCombes/SelfEd-Tutorials-AngularJS)
 
 [Brian's AngularJS Respositories](https://github.com/BrianHCombes/SelfEd-Tutorials-AngularJS)
 
