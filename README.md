@@ -1,6 +1,6 @@
 # Brian's Show-and-Tell
 
-This respository has links to projects I want to show.
+This respository has links to production and research projects I want to show.
 
 ### :arrow_down_small: **Projects**
 Brian's Projects | Comments
